@@ -1,0 +1,203 @@
+@import "_reset.scss";
+
+
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 14px;
+	color: #858b89;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+
+//._container {
+//	max-width: 1046px;
+//	margin: 0 auto;
+//	padding: 0 15px; /* Что бы не прилипал сайт к границам */
+//	box-sizing: content-box;
+//}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 15px;
+	/* Что бы не прилипал сайт к границам */
+	box-sizing: content-box;
+}
+
+.header {
+}
+
+.main {
+}
+
+.registration {
+	background: linear-gradient(to right, #b5dab8 0%, #e6ebcd 100%);
+
+		// .registration__container
+		&__container {
+		}
+
+		// .registration__info
+		&__info {
+		}
+
+		// .registration__title
+		&__title {
+			font-size: 35px;
+			text-align: center;
+			padding: 20px 0 60px 0;
+			font-weight: 300;
+		}
+}
+
+.ticket-booking {
+
+		// .ticket-booking__container
+		&__container {
+		}
+
+		// .ticket-booking__conference-information
+		&__conference-information {
+			margin-top: 30px;
+		}
+
+		// .ticket-booking__forma
+		&__forma {
+			margin-bottom: 30px;
+		}
+}
+.conference-information {
+
+		// .conference-information__title
+		&__title {
+			font-size: 25px;
+			line-height: 2.5;
+			text-align: center;
+		}
+
+		// .conference-information__subtitle
+		&__subtitle {
+			font-size: 16px;
+			color: #b4bbb9;
+			line-height: 2.5;
+			text-align: center;
+		}
+
+		// .conference-information__rubric
+		&__rubric {
+			font-size: 20px;
+			line-height: 2.5;
+			text-align: center;
+		}
+}
+
+.rubric {
+
+		// .rubric__text
+		&__text {
+			font-size: 15px;
+			text-align: center;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+}
+
+.forma-zakaz {
+	max-width: 300px;
+	width: 100%;
+	margin: 0 auto;
+
+		// .forma-zakaz__user
+		&__user {
+			font-size: 15px;
+			font-weight: bold;
+			padding: 0 45%;
+			display: block;
+		}
+
+		// .forma-zakaz__username
+		&__username {
+			display: block;
+			padding: 8px;
+			border: 1px solid #808489;
+			border-radius: 5px;
+			width: 100%;
+			margin: 5px 0 20px 0;
+		}
+
+		// .forma-zakaz__email
+		&__email {
+			font-size: 15px;
+			font-weight: bold;
+			padding: 0 43%;
+			display: block;
+		}
+
+		// .forma-zakaz__email-address
+		&__email-address {
+			display: block;
+			padding: 8px;
+			border: 1px solid #808489;
+			border-radius: 5px;
+			width: 100%;
+			margin: 5px 0 20px 0;
+		}
+
+		// .forma-zakaz__number
+		&__number {
+			font-size: 15px;
+			font-weight: bold;
+			padding: 0 31%;
+			display: block;
+		}
+	
+		// .forma-zakaz__amount
+		&__amount {
+			display: block;
+			height: 35px;
+			width: 60px;
+			border: 1px solid #808489;
+			border-radius: 5px;
+			padding: 8px;
+			margin: 5px 0 20px 0;
+		}
+	
+		// .forma-zakaz__comment
+		&__comment {
+			font-size: 15px;
+			font-weight: bold;
+			display: block;
+			padding: 0 33%;
+		}
+	
+		// .forma-zakaz__comment-text
+		&__comment-text {
+			display: block;
+			padding: 5px;
+			border: 1px solid #808489;
+			border-radius: 5px;
+			width: 100%;
+			height: 80px;
+			margin: 5px 0 30px 0;
+		}
+
+		// .forma-zakaz__btn
+		&__btn {
+			display: inline-block;
+			background: #648780;
+			color: white;
+			border-radius: 5px;
+			padding: 13px 30px;
+			font-size: 16px;
+			text-transform: uppercase;
+			cursor: pointer;
+		}
+}
+.footer {
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./fonts/Raleway-Regular.ttf">
+	<title>Регистрация</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="main">
+			<section class="registration">
+				<div class="registration__container container">
+					<div class="registration__info">
+						<h1 class="registration__title">Регистрация</h1>
+					</div>
+				</div>
+			</section>
+			<section class="ticket-booking">
+				<div class="ticket-booking__container container">
+					<div class="ticket-booking__conference-information">
+						<h2 class="conference-information__title">
+							Закажи билет на конференцию
+						</h2>
+						<p class="conference-information__subtitle">
+							$99 за билет
+						</p>
+						<p class="conference-information__rubric">
+							Зачем участвовать?
+						</p>
+						<p class="rubric__text">
+							Более двадцати спикеров мирового класса <br>
+							Один полный день мастер-классов и два полных дня презентаций <br>
+							Состоится в Театре Чикаго, исторической достопримечательности <br>
+							Август в Чикаго просто поражает
+						</p>
+					</div>
+					<form class="ticket-booking__forma">
+						<fieldset class="forma-zakaz">
+							<label class="forma-zakaz__user" for="username">
+								Имя
+							</label>
+							<input class="forma-zakaz__username" type="text" name="username" placeholder="Полное имя">
+							<label class="forma-zakaz__email" for="email">
+								Email
+							</label>
+							<input class="forma-zakaz__email-address" type="email" name="email-address"
+								placeholder="Адрес почты">
+							<label class="forma-zakaz__number" for="select">
+								Число билетов
+							</label>
+							<select class="forma-zakaz__amount" name="amount" id="select">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3" selected>3</option>
+							</select>
+							<label class="forma-zakaz__comment" for="textarea">
+								Комментарии
+							</label>
+							<textarea class="forma-zakaz__comment-text" name="comment"></textarea>
+							<input class="forma-zakaz__btn" type="button" name="submit" value="Заказать">
+						</fieldset>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+	<script src="./js/script.js"></script>
+</body>
+
+</html>
